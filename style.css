@@ -1,0 +1,175 @@
+  * {
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+      background-color: #b7d7d7;
+  }
+
+  td {
+      width: 35px;
+      height: 35px;
+      border: 1px solid black;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #af96a6;
+
+  }
+
+  input {
+      border: none;
+      width: 30px;
+      font-size: 25px;
+      outline: none;
+      text-align: center;
+      background-color: #af96a6;
+      align-items: center;
+  }
+
+  .cruzada-container {
+      display: flex;
+      justify-content: center;
+
+  }
+
+  #qdr {
+      border: none;
+      background-color: transparent;
+  }
+
+  #Parte1 #buttonJogar {
+      width: 110px;
+      height: 70px;
+      font-size: 30px;
+      border-radius: 15px;
+      color: #981664;
+      border-color: #981664;
+      background-color: #ac879e;
+  }
+
+
+  #Parte1 img {
+      width: 400px;
+  }
+
+  #Parte2 img {
+      width: 150px;
+  }
+
+  #PalavrasH {
+      margin-right: 160vh;
+      position: absolute;
+  }
+
+  #PalavrasV {
+      margin-left: 160vh;
+      position: absolute;
+  }
+
+  .Numero1 {
+    margin-left: 73vh;
+    margin-top: 57vh;
+    position: absolute;
+}
+
+.Numero2 {
+    margin-left: 100vh;
+    margin-top: 55vh;
+    position: absolute;
+}
+
+.Numero3 {
+    margin-left: 111vh;
+    margin-top: 38vh;
+    position: absolute;
+}
+
+.Numero4 {
+    margin-left: 125vh;
+    margin-top: 39vh;
+    position: absolute;
+}
+
+.Numero5 {
+    margin-left: 94.8vh;
+    margin-top: 32vh;
+    position: absolute;
+}
+
+.Numero6 {
+    margin-left: 72vh;
+    margin-top: 45vh;
+    position: absolute;
+}
+
+.Numero7 {
+    margin-left: 88vh;
+    margin-top: 72vh;
+    position: absolute;
+}
+
+.Numero8 {
+    margin-left: 143vh;
+    margin-top: 21vh;
+    position: absolute;
+}
+
+.Numero9 {
+    margin-left: 147vh;
+    margin-top: 64vh;
+    position: absolute;
+}
+
+.Numero10 {
+    margin-left: 78vh;
+    margin-top: 51vh;
+    position: absolute;
+}
+
+.Numero11 {
+    margin-left: 45vh;
+    margin-top: 64vh;
+    position: absolute;
+}
+
+.Numero12 {
+    margin-left: 132vh;
+    margin-top: 55vh;
+    position: absolute;
+}  
+
+.Numero13 {
+    margin-left: 120vh;
+    margin-top: 65vh;
+    position: absolute;
+}
+
+.Numero14 {
+    margin-left: 152vh;
+    margin-top: 58vh;
+    position: absolute;
+}
+
+  .Numero15 {
+      margin-left: 67.2vh;
+      margin-top: 14vh;
+      position: absolute;
+  }
+
+  .Numero16 {
+      margin-left: 45vh;
+      margin-top: 22vh;
+      position: absolute;
+  }
+
+  .Numero17 {
+    margin-left: 92vh;
+    margin-top: 107vh;
+    position: absolute;
+}
+
+  .Numero18 {
+      margin-left: 78vh;
+      margin-top: 14vh;
+      position: absolute;
+  }

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Cruzadinha</title>
+</head>
+
+<body style="text-align: center;">
+  <div id="Parte1" style="align-items: center;">
+  <img src="Palavras Cruzadas G&T.png">
+  <br>
+  <br>
+  
+  <h2>Este é um jogo de palavras cruzadas para que você possa testar seu conhecimento!</h2>
+  <br>
+  <button id="buttonJogar" onclick="jogar()">Jogar</button>
+</div>  
+  <div id="Parte2">
+    <div class="Numero1">1 &#129046;</div>
+    <div class="Numero2">2<br>&#129047;</div>
+    <div class="Numero3">3<br>&#129047;</div>
+    <div class="Numero4">4 &#129046;</div>
+    <div class="Numero5">5<br>&#129047; </div>
+    <div class="Numero6">6 &#129046;</div>
+    <div class="Numero7">7 &#129046;</div>
+    <div class="Numero8">8<br>&#129047;</div>
+    <div class="Numero9">&#129044; 9</div>
+    <div class="Numero10">10<br>&#129047;</div>
+    <div class="Numero11">11 &#129046;</div>
+    <div class="Numero12">12<br>&#129047;</div>
+    <div class="Numero13">&#129044; 13</div>
+    <div class="Numero14">&#129044; 14</div>
+    <div class="Numero15">15<br>&#129047;</div>
+    <div class="Numero16">16 &#129046;</div>
+    <div class="Numero17">17 &#129046;</div>
+    <div class="Numero18">18<br>&#129047;</div>
+    <img src="Palavras Cruzadas G&T.png">
+    <div class="cruzada-container">
+      <div id="PalavrasH">
+        <h3> Palavras na Horizontal:</h3>
+        <p><b>1.</b> Componente do computador que concentra todas as principais operações que permitem seu PC funcionar
+        </p>
+        <p><b>4.</b> Memória volátil usada para armazenar o sistema operacional, aplicativos em execução e dados
+          temporários durante a operação do computador</p>
+        <p><b>6.</b> É uma memória que pode ser programada e apagada eletricamente. Ela permite a gravação e a leitura
+          de dados, mas precisa ser apagada antes de ser reprogramada</p>
+        <p><b>7.</b> É um tipo de memória não volátil que pode eletricamente apagada e reprogramada amplamente usada em
+          dispositivos portáteis como pen drives, cartão de memória e smartphones</p>
+        <p><b>9.</b> É controlador especializado que permite que dispositivos periféricos acessem a memória diretamente,
+          em vez de passar pela CPU a cada transferência de dados</p>
+        <p><b>11.</b> É utilizado para transmitir o endereço de memória ou o endereço de um dispositivo de entrada/saída
+        </p>
+        <p><b>13.</b> Processador multipropósito que oferece um desempenho sólido em jogos, navegação web e tarefas
+          básicas</p>
+        <p><b>14.</b> Processador melhor para jogos de alta performace, criação de conteúdo e aplicativos especializados
+        </p>
+        <p><b>16.</b> É um processador que contém quatro núcleos de processamento independentes em um único chip</p>
+        <p><b>17.</b> São unidades de execução dentro de um processo que podem ser usadas para executar tarefas
+          simultaneamente e aprveitar melhor os recuros do processador </p>
+      </div>
+      <table>
+        <tr>
+
+
+          <td><input id="palavra_16_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_16()"></td>
+          <td><input id="palavra_16_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_16()"></td>
+          <td><input id="palavra_16_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_16()"></td>
+          <td><input id="palavra_16_letra_4" type="text" maxlength="1" onkeyup="letra_4_palavra_16()"></td>
+          <td><input type="text" maxlength="1">-</td>
+          <td><input id="palavra_16_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_16()"></td>
+          <td><input id="palavra_16_letra_6" type="text" maxlength="1" onkeyup="letra_6_palavra_16()"></td>
+          <td><input id="palavra_16_letra_7" type="text" maxlength="1" onkeyup="letra_7_palavra_16()"></td>
+          <td><input id="palavra_16_letra_8" type="text" maxlength="1" onkeyup="letra_8_palavra_16()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_15_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_15()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_18_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_18()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_8()"></td>
+          <td id="qdr"></td>
+
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_15_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_15()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_18_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_18()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_2"  type="text" maxlength="1" onkeyup="letra_2_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_15_letra_4" type="text" maxlength="1" onkeyup="letra_4_palavra_15()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_18_letra_4" type="text" maxlength="1" onkeyup="letra_4_palavra_18()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_5_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_5()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_4_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_4()"></td>
+          <td><input id="palavra_4_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_4()"></td>
+          <td><input id="palavra_4_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_4()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input type="text" maxlength="1">-</td>
+          <td id="qdr"></td>
+          <td><input id="palavra_18_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_18()"></td>
+          <td><input id="palavra_6_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_6()"></td>
+          <td><input id="palavra_6_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_6()"></td>
+          <td><input id="palavra_6_letra_4" type="text" maxlength="1" onkeyup="letra_4_palavra_6()"></td>
+          <td><input id="palavra_6_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_6()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_4"  type="text" maxlength="1" onkeyup="letra_4_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_15_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_15()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_5_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_5()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_5"  type="text" maxlength="1" onkeyup="letra_5_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_15_letra_6" type="text" maxlength="1" onkeyup="letra_6_palavra_15()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_1_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_1()"></td>
+          <td><input id="palavra_1_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_1()"></td>
+          <td><input id="palavra_1_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_1()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_14_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_14()"></td>
+          <td><input id="palavra_14_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_14()"></td>
+        </tr>
+        <tr>
+
+          <td><input id="palavra_11_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_11()"></td>
+          <td><input id="palavra_11_letra_2" type="text" maxlength="1"onkeyup="letra_2_palavra_11()"></td>
+          <td><input id="palavra_11_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_11()"></td>
+          <td><input id="palavra_15_letra_7" type="text" maxlength="1" onkeyup="letra_7_palavra_15()"></td>
+          <td><input id="palavra_11_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_11()"></td>
+          <td><input id="palavra_10_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_10()"></td>
+          <td><input id="palavra_11_letra_7" type="text" maxlength="1" onkeyup="letra_7_palavra_11()"></td>
+          <td><input type="text" maxlength="1">-</td>
+          <td><input id="palavra_11_letra_8" type="text" maxlength="1" onkeyup="letra_8_palavra_11()"></td>
+          <td><input id="palavra_11_letra_9" type="text" maxlength="1"onkeyup="letra_9_palavra_11()"></td>
+          <td><input id="palavra_11_letra_10" type="text" maxlength="1"onkeyup="letra_10_palavra_11()"></td>
+          <td><input id="palavra_13_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_13()"></td>
+          <td><input id="palavra_13_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_13()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_9_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_9()"></td>
+          <td><input id="palavra_9_letra_2"  type="text" maxlength="1" onkeyup="letra_2_palavra_9()"></td>
+          <td><input id="palavra_9_letra_3"  type="text" maxlength="1" onkeyup="letra_3_palavra_9()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_15_letra_8" type="text" maxlength="1" onkeyup="letra_8_palavra_15()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_7_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_7()"></td>
+          <td><input id="palavra_7_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_7()"></td>
+          <td><input id="palavra_7_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_7()"></td>
+          <td><input id="palavra_7_letra_4" type="text" maxlength="1" onkeyup="letra_4_palavra_7()"></td>
+          <td><input id="palavra_7_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_7()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_12_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_12()"></td>
+          <td id="qdr"></td>
+          <td><input type="text" maxlength="1">-</td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_2_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_2()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_6" type="text" maxlength="1" onkeyup="letra_6_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_12_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_12()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_8"  type="text" maxlength="1" onkeyup="letra_8_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_7" type="text" maxlength="1" onkeyup="letra_7_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_12_letra_4" type="text" maxlength="1" onkeyup="letra_4_palavra_12()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_9"  type="text" maxlength="1" onkeyup="letra_9_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_8" type="text" maxlength="1" onkeyup="letra_8_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input type="text" maxlength="1">-</td>
+          <td id="qdr"></td>
+          <td><input type="text" maxlength="1">-</td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_9" type="text" maxlength="1" onkeyup="letra_9_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_12_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_12()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_10"  type="text" maxlength="1" onkeyup="letra_10_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_10" type="text" maxlength="1" onkeyup="letra_10_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_12_letra_6" type="text" maxlength="1" onkeyup="letra_6_palavra_12()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_11"  type="text" maxlength="1" onkeyup="letra_11_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_17_letra_1" type="text" maxlength="1" onkeyup="letra_1_palavra_17()"></td>
+          <td><input id="palavra_17_letra_2" type="text" maxlength="1" onkeyup="letra_2_palavra_17()"></td>
+          <td><input id="palavra_17_letra_3" type="text" maxlength="1" onkeyup="letra_3_palavra_17()"></td>
+          <td><input id="palavra_17_letra_4" type="text" maxlength="1" onkeyup="letra_4_palavra_17()"></td>
+          <td><input id="palavra_17_letra_5" type="text" maxlength="1" onkeyup="letra_5_palavra_17()"></td>
+          <td><input id="palavra_17_letra_6" type="text" maxlength="1" onkeyup="letra_6_palavra_17()"></td>
+          <td><input id="palavra_17_letra_7" type="text" maxlength="1" onkeyup="letra_7_palavra_17()"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_12" type="text" maxlength="1" onkeyup="letra_12_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_12" type="text" maxlength="1" onkeyup="letra_12_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_13"  type="text" maxlength="1" onkeyup="letra_13_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+        <tr>
+
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_3_letra_13" type="text" maxlength="1" onkeyup="letra_13_palavra_3()"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td id="qdr"></td>
+          <td><input id="palavra_8_letra_14"  type="text" maxlength="1" onkeyup="letra_14_palavra_8()"></td>
+          <td id="qdr"></td>
+        </tr>
+      </table>
+      <div id="PalavrasV">
+        <h3> Palavras na Vertical:</h3>
+        <p><b>2.</b> É a encarregada de executar as 4 operações básicas e operações lógicas de Álgebra Booleana</p>
+        <p><b>3.</b> Componente de hardware que podem armazenar temporariamente dados, intruções, endereços de memória
+          que estão sendo processados pela CPU</p>
+        <p><b>5.</b> Memória usada para armazenar informações essenciais, como o firmware do sistema (BIOS)</p>
+        <p><b>8.</b> É um tipo de memória não volátil usada para armazenar dados permanentemente e é usada para
+          armazenar arquivos e programas em um sistema de computador</p>
+        <p><b>10.</b> É um sinal de controle usado em comunicações seriais para selecionar um dispositivo específico em
+          um barramento compartilhado</p>
+        <p><b>12.</b> É usado para transmitir os dados entre a CPU, memória e dispositivos de entrada/saída</p>
+        <p><b>15.</b> É um processador que contém dois núcleos de processamento independentes em um único chip</p>
+        <p><b>18.</b> É uusada para armazenar temporariamente dados e intruções frequentemente acessados pelo
+          processador, reduzinho a latência de acesso e melhorando o desempenho geral do sistema</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script>
+  Parte2.style.display = "none";
+
+function jogar() {
+    Parte1.style.display = "none";
+    Parte2.style.display = "block";
+
+}
+</script>
